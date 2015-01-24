@@ -19,5 +19,7 @@
 		- flash.each do |name, msg|
 			= content_tag :div, msg, class: "alert"
 
+		= cloudinary_js_config
+
 		= yield
 
